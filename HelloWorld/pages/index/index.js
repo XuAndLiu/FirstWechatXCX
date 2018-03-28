@@ -50,5 +50,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  toMinePage:function(e){
+    wx.navigateTo({
+      url: '/pages/mine/mine',
+    })
   }
+
 })
