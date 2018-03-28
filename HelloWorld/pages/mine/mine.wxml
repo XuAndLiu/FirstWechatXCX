@@ -1,2 +1,2 @@
 <!--pages/mine/mine.wxml-->
-<text>我的名字是{{name}}</text>
+<text>我的名字是{{user}}</text>

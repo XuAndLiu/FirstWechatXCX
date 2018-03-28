@@ -9,6 +9,6 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-    <button bindtap='toMinePage'>跳转到我的页面</button>
+    <button bindtap='toMinePage'>跳转列表页面</button>
   </view>
 </view>

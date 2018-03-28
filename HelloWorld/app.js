@@ -1,4 +1,11 @@
 //app.js
+
+var userInfo = {
+  name: 'xll',
+  sex:'男',
+  age:'26'
+}
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -34,6 +41,6 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: userInfo
   }
 })

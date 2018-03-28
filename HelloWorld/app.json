@@ -2,12 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/need/need",
+    "pages/service/service",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "我的小程序",
+    "navigationBarTitleText": "车务管理",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -17,8 +20,12 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/need/need",
+        "text": "需求"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "服务"
       },
       {
         "pagePath": "pages/mine/mine",
